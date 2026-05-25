@@ -1,0 +1,12 @@
+# Full Example: https://github.com/geekan/MetaGPT/blob/main/config/config2.example.yaml
+# Reflected Code: https://github.com/geekan/MetaGPT/blob/main/metagpt/config2.py
+llm:
+  api_type: "openai"  # or azure / ollama / open_llm etc. Check LLMType for more options
+  model: "Qwen2.5-72B-Instruct-AWQ"
+  base_url: http://127.0.0.1:8383/v1
+  api_key: "not used actually"
+
+  # 设置增加随机性
+  temperature: 0.7
+  top_p: 0.9
+  repetition_penalty: 1.1

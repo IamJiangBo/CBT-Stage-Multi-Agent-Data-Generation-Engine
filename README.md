@@ -3,7 +3,7 @@ This repository provides a CBT-stage multi-agent data generation engine and the 
 
 The goal of this project is to construct high-quality psychological counseling dialogues with explicit therapeutic structure.
 Instead of generating generic supportive conversations, our engine organizes dialogue synthesis around CBT stages, user psychological states, and stage-specific intervention constraints, making the resulting data more suitable for training and evaluating process-aware mental health dialogue models.
-![](assets/framework.png)
+![](assets/framework_image.png)
 
 ## Overview
 Large language models can produce fluent and empathetic responses, but psychological counseling requires more than surface-level support.
